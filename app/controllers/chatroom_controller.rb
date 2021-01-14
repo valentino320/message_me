@@ -3,7 +3,7 @@ class ChatroomController < ApplicationController
 
   def index
     @message = Message.new
-    @messages = Message.all
+    @messages = Message.display_last_20
   end
 
 end

@@ -3,3 +3,14 @@
 .chatbox {
   height: 450px;
 }
+
+#messages {
+  overflow: auto;
+  height: 15em;
+}
+
+#hidden_button {
+  button {
+    display: none;
+  }
+}
